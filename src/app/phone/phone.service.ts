@@ -3,7 +3,7 @@ import { Subject } from "rxjs";
 
 import * as PMMessage from "./phone.message";
 
-export const PFE_ORIGIN = "https://apps.mypurecloud.com.au";
+export const PFE_ORIGIN = "https://apps.mypurecloud.jp";
 
 @Injectable({
   providedIn: 'root'

@@ -16,6 +16,7 @@ export class AppComponent {
   private ngOnInit() {
     // Notifications sent from phone to CRM
     this.phoneService.notifications.subscribe((data: any) => {
+      this.log.unshift("Entered this block");
       switch (data.type) {
         case PMMessage.PM_INITIAL_SETUP:
           this.phoneInitialSetupCompleted();

@@ -4,10 +4,14 @@ const PFE_CRMTargetOrigin = "http://localhost:4200";
 
 window.Framework = {
   config: {
-    name: "My Test App",
+    name: "OCFT-web",
     clientIds: { 
-      "mypurecloud.com.au": "your client id here",
-      "inindca.com": "59a45af9-cfc-4f2b-9f0c-d7763dae6923" }
+      'mypurecloud.com': '',
+      'mypurecloud.ie': '',
+      'mypurecloud.com.au': '',
+      'mypurecloud.jp': 'bc5ad51f-75c5-4530-9488-0383ba9c229b',
+      'mypurecloud.de': ''
+    }
   },
 
   // callback to let CRM know framework.js successfully loaded
